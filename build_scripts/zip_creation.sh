@@ -7,3 +7,5 @@ sleep 5
 echo "- Creating new zip file"
 zip -r myapp-$BUILD_NUMBER.zip src
 sleep 5
+echo "Zip file myapp-$BUILD_NUMBER.zip created"
+sleep 5
