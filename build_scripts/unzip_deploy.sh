@@ -1,5 +1,5 @@
 #!/bin/bash
-DIR= "/artifacts"
+DIR= "$WORKSPACE/artifacts"
 if ["$DIR"];then
   echo "- Clearing directory"
   rm /DIR/*
