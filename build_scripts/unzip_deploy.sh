@@ -7,6 +7,6 @@ then
   mkdir artifacts
 else
   echo "- Clearing directory"
-  rm /DIR/* 
+  rm /$DIR/* 
 fi
 unzip myapp-$buildVersion.zip "$WORKSPACE/artifacts"
