@@ -1,6 +1,6 @@
 #!/bin/bash
 DIR= "/artifacts/"
-if [-d "$DIR"];then
+if ["$DIR"];then
   echo "- Clearing directory"
   rm /DIR/*
 else
