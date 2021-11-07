@@ -5,7 +5,7 @@ echo ""
 find . -name "*.zip" -type f -delete
 sleep 5
 echo "- Creating new zip file"
-zip -r myapp-$buildNo.zip src
+zip -r myapp-$buildNo.zip src Dockerfile requirements.txt
 sleep 5
 echo ""
 echo ""
