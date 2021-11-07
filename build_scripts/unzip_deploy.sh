@@ -1,6 +1,6 @@
 #!/bin/bash
 DIR= "$WORKSPACE/artifacts"
-if ["$DIR"];then
+if [-d "$DIR"];then
   echo "- Clearing directory"
   rm /DIR/*
 else
