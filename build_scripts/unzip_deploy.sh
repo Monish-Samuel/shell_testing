@@ -6,3 +6,4 @@ if [-d "$DIR"];then
   unzip myapp-$buildVersion.zip -d "/artifacts"
 else
   echo "Specified directory doesn't exist"
+fi  
