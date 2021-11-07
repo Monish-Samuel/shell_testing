@@ -8,4 +8,4 @@ else
   echo "- Creating Directory"
   mkdir artifacts
 fi
-unzip myapp-$buildVersion.zip -d "/artifacts"
+unzip myapp-$buildVersion.zip artifacts
