@@ -5,9 +5,9 @@ echo ""
 find . -name "*.zip" -type f -delete
 sleep 5
 echo "- Creating new zip file"
-zip -r myapp-$BUILD_NUMBER.zip src
+zip -r myapp-$buildNo.zip src
 sleep 5
 echo ""
 echo ""
-echo "- Zip file myapp-$BUILD_NUMBER.zip created"
+echo "- Zip file myapp-$buildNo.zip created"
 sleep 5
