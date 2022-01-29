@@ -7,7 +7,6 @@ sleep 5
 echo "- Creating new zip file"
 cd $WORKSPACE/shell_testing
 zip -r myapp-$buildNo.zip src Dockerfile requirements.txt
-mv myapp-$buildNo.zip $WORKSPACE/shell_testing
 sleep 5
 echo ""
 echo ""
